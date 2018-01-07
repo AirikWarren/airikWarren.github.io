@@ -1,12 +1,18 @@
 * {
 	background: #EEEEEE;
+	text-align: left;
 }
 
 body {
 	line-height: 1.4;
+	font-family: 'Bellefair', serif;
+	font-size: 20px;	
+	margin-right: 340px;
+	margin-left: 340px;
 }
 
 h1 {
 	color: firebrick;
+	margin-right: -30px;
 }
 
