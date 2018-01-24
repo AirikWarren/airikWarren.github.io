@@ -18,8 +18,8 @@
 /* Body */
 body {
     background: #FDF6E3;
-    color: #8A887B;
-    font-size: 16px;
+    color: #321123;
+    font-size: 19px;
     font-family: 'Crimson Text', 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /*line-height: 1.429;*/
     margin: 0;
@@ -263,12 +263,15 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 }
 #featured figure img {display: block; float: right;}
 
-#featured h2 {color: inherit; font-size: 1.714em; margin-bottom: 0.333em;}
-#featured h3 {font-size: 1.429em; margin-bottom: .5em;}
+#featured h2 {color: firebrick; font-size: 1.714em; margin-bottom: 0.333em;}
+#featured h3 {font-size: 1.429em; margin-bottom: .5em; color: firebrick;}
 
 #featured h3 a:link, #featured h3 a:visited {color: #000305; text-decoration: none;}
 #featured h3 a:hover, #featured h3 a:active {color: #fff;}
 
+#featured ul, li {
+	color: #321123;
+}
 /*
 	Body
 *****************/
@@ -289,8 +292,10 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 *****************/
 #extras {margin: 0 auto 3em auto; overflow: hidden;}
 
-#extras ul {list-style: none; margin: 0;}
-#extras li {border-bottom: 1px solid #fff;}
+#extras ul {
+	list-style: none; margin: 0; color: #231123;
+}
+#extras li {border-bottom: 1px solid #fff; color: #231123;}
 #extras h2 {
 	color: inherit;
 	font-size: 1.429em;
